@@ -10,7 +10,7 @@ Sneak on top of a composter and roll for JinKela.
 
 ## 下载 / Download
 
-[**最新版本**](https://github.com/AaLonG-2012/jinkela-composter/releases/latest) · `jinkela-composter-1.0.0.jar`
+[**最新版本**](https://github.com/AaLonG-2012/jinkela-composter/releases/latest) · `jinkela-composter-1.1.0.jar`
 
 | 需要 | 版本 |
 |---|---|
