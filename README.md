@@ -26,7 +26,7 @@ Sneak on top of a composter and roll for JinKela.
 
 1. **90%** 概率触发这次抽奖；剩下 10% 完全没反应（没有声音，也不填充）。
 2. 抽奖一旦触发，**100%** 播放「金坷垃」音效：从 9 个音源里随机挑一个，音调在 **0.85–1.20** 之间随机。
-3. 同一次抽奖另有 **60%** 概率把这个堆肥桶**填充一层**（和投入一个可堆肥物一样，7 层之后 1 秒变「可用」，右键取骨粉）。
+3. 同一次抽奖另有 **85%** 概率把这个堆肥桶**填充一层**（和投入一个可堆肥物一样，7 层之后 1 秒变「可用」，右键取骨粉）。
 
 细节：
 
@@ -41,7 +41,7 @@ Sneak **while standing on top of** a composter to roll once:
 
 - 90% - the draw happens; the other 10% is completely silent.
 - The draw always plays a JinKela sound: one of nine clips picked at random, with a random pitch between 0.85 and 1.20.
-- 60% - that composter gains one layer (identical to inserting a compostable item).
+- 85% - that composter gains one layer (identical to inserting a compostable item).
 
 Only the rising edge of the sneak key counts, so holding shift does nothing. A 6-tick cooldown keeps auto-clickers from flooding the area.
 
@@ -50,8 +50,8 @@ Only the rising edge of the sneak key counts, so holding shift does nothing. A 6
 | 参数 | 值 | 说明 |
 |---|---|---|
 | 触发概率 | 0.90 | 每次潜行判定 |
-| 填充概率 | 0.60 | 触发抽奖之后独立再掷 |
-| 实际填充率 | 0.54 | 0.90 × 0.60 |
+| 填充概率 | 0.85 | 触发抽奖之后独立再掷 |
+| 实际填充率 | 0.77 | 0.90 × 0.85 |
 | 冷却 | 6 tick | 两次抽奖最小间隔 |
 | 音调范围 | 0.85–1.20 | 每次播放随机 |
 | 音源 | 9 个 | `assets/jinkela-composter/sounds/jinkela_*.ogg` |

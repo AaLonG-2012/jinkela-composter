@@ -25,7 +25,7 @@ import net.minecraft.world.phys.AABB;
  * <ol>
  *   <li>90% - the draw happens at all. The other 10% stays completely silent.</li>
  *   <li>100% (once step 1 passed) - play the JinKela sound with a random clip and a random pitch.</li>
- *   <li>60% - fill that composter by exactly one layer.</li>
+ *   <li>85% - fill that composter by exactly one layer.</li>
  * </ol>
  *
  * <p>Only the rising edge of the sneak key counts, so holding shift does nothing; a short cooldown
@@ -35,7 +35,7 @@ public final class SneakDrawHandler {
 	/** Chance that a sneak press on a composter triggers a draw. */
 	private static final float TRIGGER_CHANCE = 0.90F;
 	/** Chance that a triggered draw actually fills the composter by one layer. */
-	private static final float FILL_CHANCE = 0.60F;
+	private static final float FILL_CHANCE = 0.85F;
 	/** Minimum ticks between two draws, so mashing shift cannot flood the area with sound. */
 	private static final int COOLDOWN_TICKS = 6;
 	private static final float PITCH_MIN = 0.85F;

@@ -3,7 +3,7 @@
 	"id": "jinkela-composter",
 	"version": "${version}",
 	"name": "生产金克拉",
-	"description": "站在堆肥桶上方潜行：90% 概率触发一次抽奖，抽奖必定播放金坷垃音效（随机音源 + 随机音调），并有 60% 概率让这个堆肥桶多填一层。\nSneak while standing on top of a composter: 90% chance to trigger a draw, the draw always plays a randomised JinKela sound (random clip + random pitch), and has a 60% chance to add one compost layer.",
+	"description": "站在堆肥桶上方潜行：90% 概率触发一次抽奖，抽奖必定播放金坷垃音效（随机音源 + 随机音调），并有 85% 概率让这个堆肥桶多填一层。\nSneak while standing on top of a composter: 90% chance to trigger a draw, the draw always plays a randomised JinKela sound (random clip + random pitch), and has a 85% chance to add one compost layer.",
 	"authors": [
 		"AaLonG-2012"
 	],
